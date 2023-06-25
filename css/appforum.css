@@ -1,0 +1,34 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* main section  */
+.appforummain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+}
+.appforummainSection {
+  padding-bottom: 8rem !important;
+}
+.appforumContent table{
+    border-radius: 6px;
+    overflow: hidden;
+}
+.appforumContent table thead{
+    border-bottom: 1px solid #fff;
+}
+.appforumContent table thead th.forum{
+    display: inline-block;
+    min-width: 500px !important;
+}
+.appforumContent table tbody tr th{
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.appforumContent table tbody tr{
+    border-bottom: 1px solid #9797972a;
+} 
+.appforumContent table tbody tr td:last-child,.appforumContent .freshness{
+    padding-left:40px !important;
+    min-width: 200px !important;
+}

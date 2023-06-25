@@ -1,0 +1,65 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* appmain */
+ .apployaltymain{
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 2rem;
+  padding-bottom: 13rem !important;
+}
+.apployaltymainSection .right {
+    display: grid;
+    height: 100%;
+    padding: 60px 0;
+    padding-top: 10px;
+    place-items: center;
+    flex-grow: 1;
+    background-image: url(../images/book.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+.blogmainimg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+ .right .jobmaleimg {
+  position: absolute;
+  transform: translate(-208%, 30%);
+  -moz-transform: translate(-126%, 53%);
+  width: 120px;
+}
+ .right .laptopmaleimg {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(187%, 42%);
+  width: 100px;
+}
+
+.loyaltyCard .loyaltyImg{
+    width: 100%;
+    background-image: url(../images/light-cloud.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+  height: 180px;
+
+}
+.loyaltyCard:hover img{
+  transform: scale(1.1);
+}
+.loyaltyInfo .cardtitle{
+    font-size: 12px ;
+    font-weight: 500;
+    color: #2843e0;
+}
+.loyaltyInfo .cardtitle span{
+    font-size: 18px;
+    font-weight:  bold ;
+}

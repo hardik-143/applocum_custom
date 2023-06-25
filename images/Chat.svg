@@ -1,0 +1,19 @@
+<svg id="Chat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="111" viewBox="0 0 111 111">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4a37;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="111" height="111" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-1.798" dy="0.877" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.099"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-1" cx="57" cy="54" r="30"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="43" y="41" width="28" height="26" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAABVElEQVRIie2WTUoDQRCFv4QYHZFcRPAC7txJVh5A0IV7wX0OIDmBIvEcWenCA5iF3iBZij8oKvKkh+o4M5HJZNLtygcFRfVQb7p+eI0kZx1JfUljhcfYcjsOPNltBKIiHEenBfSALWACHAE3hMU2cG4cPTJl7Fp5Y1jXOMYNpYVNsQ68Bb6dRwK8Oj9L2IhE5pHyNCOTzODPCVslZxvAgfmXwEvNeB6ZXSlO5zBzNlwi7i1F2dB8ACvmfwLtmnGPuUNzFcjPoeyGrieH5g8KPVwknrvh/x5GJUwi8kxzN02WHHYiEvrcE0yNZTLlZCQJKE+J5fQS2J+n+KNCgk1Jd8sofpU3jf/G/elTDaLcm6bxs4ZTrJk9WMDt5wlwaj2/BvaB5wq9e58R9ZL6e1xk/DNJ7WX6WoXQ4UvScYhBqkL4KGk31OSWCfAIWAX2gPtFF+9XAN9fXwZ38wTxcAAAAABJRU5ErkJggg=="/>
+</svg>

@@ -1,0 +1,116 @@
+@import url(./custom.css);
+@import url(./common.css);
+
+.accreditationmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 4rem !important;
+}
+.accreditationmainSection .right {
+  display: grid;
+  height: 100%;
+  padding: 10px 0;
+  place-items: center;
+  flex-grow: 1;
+}
+
+.stableMainImg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+/* content */
+.accreContent .container > h2 {
+  margin-bottom: 20px !important;
+}
+.accreCard {
+  display: flex;
+  background: #fbfcff;
+  border-radius: 15px;
+  margin-bottom: 40px ;
+}
+.accreCard .cardImg {
+  height: 210px;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.363);
+  z-index: 2;
+}
+.accreCard .cardImg img {
+  width: 100%;
+}
+.accreCard .cardDetail {
+  flex-grow: 1;
+  padding: 20px 20px 20px 40px !important;
+  display: flex;
+  flex-direction: column;
+}
+.accreCard .cardDetail hr {
+  width: 60px;
+  height: 2px;
+  background: var(--grey);
+  margin: 17px 0 !important;
+}
+.cardDetail .cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--darkblue);
+}
+.cardDetail .cardInfo {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: var(--grey);
+  text-align: justify;
+  margin-bottom: 21px !important;
+}
+.cardDetail a {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  font-size: 18px;
+  place-items: center;
+  color: #fff;
+  background: var(--blue);
+  border-radius: 7px;
+}
+@media screen and (max-width: 1000px) {
+  .accreCard .cardDetail hr {
+    margin: 10px 0 !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .accreCard .cardDetail {
+    padding: 15px 10px !important;
+    padding-left: 15px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .accreCard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px !important;
+  }
+  .accreCard .cardImg {
+    width: 80%;
+    height: auto !important;
+    aspect-ratio: unset;
+    padding: 30px 20px !important;
+  }
+.accreCard .cardDetail {
+  padding: 10px !important;
+}
+}
+
+@media screen and (max-width: 330px) {
+  .accreCard .cardImg {
+    width: 100%;
+  }
+
+}

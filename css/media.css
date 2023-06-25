@@ -1,0 +1,231 @@
+@media screen and (min-width: 991px) {
+  .nav-item.dropdown:hover ul {
+    display: block;
+  }
+  .nav-link:hover {
+    transform: scale(1.04);
+  }
+  .LocumCards .card img {
+    height: 295px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+  .ClientCards {
+    justify-content: space-between !important;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .navSideBar {
+    display: none !important;
+  }
+  .freshidea .blue-vector {
+    display: none;
+  }
+  .Aboutmain {
+    padding-bottom: 8rem !important;
+  }
+  .AboutmainSection .right,
+  .mainInner .right,
+  .appnewsmainInner .right,
+  .apployaltymainInner .right,
+  .contactusmain .right,
+  .goldenmain .right,
+  .vacanciesmain .right {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* main section  */
+  .mainnextInner .right img,
+  .AboutmainInner .right img,
+  .mainInner .right img:not(.stableMainImg),
+  .appnewsmainInner .right img:not(.stableMainImg),
+  .apployaltymainInner .right img:not(.stableMainImg),
+  .contactusmain .right img:not(.stableMainImg),
+  .goldenmain
+    .right
+    .femalemobileimg
+    .vacanciesmain
+    .right
+    img:not(.stableMainImg),
+  .Careleft img,
+  .refermain .right img:not(.stableMainImg) ,
+  .mainSection .right img:not(.stableMainImg){
+    display: none !important;
+  }
+  .mainInner .right,
+  .AboutmainSection .right,
+  .appnewsmain .right,
+  .apployaltymain .right,
+  .contactusmain .right,
+  .goldenmain .right,
+  .vacanciesmain .right,
+  .refermain .right{
+    background-image: none !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .viewAll img {
+    display: none;
+  }
+  .freshidea .left {
+    background-image: none !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navLinks ul {
+    margin: 10px 0;
+    flex-direction: column;
+  }
+  .navLinks ul {
+    padding: 0 1.5rem;
+  }
+  .navLinks ul li a {
+    text-align: left;
+    line-height: 45px;
+  }
+  .main-slider h4 {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-slider .owl-stage .owl-item.active.center > div {
+    transform: scale(1);
+  }
+  .main-slider .owl-stage {
+    padding: 0;
+  }
+
+  /* main section  */
+  .mainNext,
+  .Aboutmain,
+  .privacymain,
+  .termsmain,
+  .missionmain,
+  .faqmainSection,
+  .appnewsmain,
+  .contactusmain,
+  .forummainSection,
+  .accreditationmain,
+  .careermain .vacanciesmain,
+  .appforummainSection,
+  .careContent,
+  .caremain,
+  .refermain ,
+  .mainSection{
+    padding-bottom: 3rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainSection h1 {
+    font-size: 35px;
+  }
+  .mainnextSection .left {
+    text-align: center;
+  }
+  .officeCard {
+    padding: 10px 2px;
+  }
+  .officeCard p img {
+    margin-right: 4px;
+  }
+}
+
+/* iframe media  */
+@media screen and (max-width: 700px) {
+  .iframemodal iframe {
+    width: 400px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .iframemodal iframe {
+    width: 100%;
+  }
+  .freshidea {
+    background-size: cover;
+  }.mainNext,
+  .forummain,
+  .faqmainSection,
+  .apployaltymain,
+  .goldenmain,
+  .accreditationmain,
+  .careermain,
+  .vacanciesmain,
+  .appforummainSection,
+  .careContent,
+  .caremain,
+  .refermain,
+  .mainSection {
+    padding-bottom: 1.5rem !important;
+  }
+
+  .apployaltymainInner h2,
+  .contactusmain h2,
+  .accreditationmain h2,
+  .careermain h2,
+  .vacanciesmain h2,
+  .careright h2,
+  .refermain h2 ,
+  .caremain h2,
+  .mainSection h2,
+  .appcommunitymain h2{
+    font-size: 33px !important;
+  }
+
+  /* main section   */
+  .mainNext,
+  .Aboutmain,
+  .faqmain,
+  .privacymain,
+  .termsmain,
+  .missionmain,
+  .appnewsmain,
+  .apployaltymain,
+  .appcommunitymain,
+  .contactusmain,
+  .forummain,
+  .goldenmain,
+  .accreditationmain,
+  .careermain,
+  .vacanciesmain,
+  .appforummainSection,
+  .careContent,
+  .caremain,
+  .refermain,
+  .mainSection {
+    background-size: 500% 120% !important;
+  }
+  .blogcards {
+    padding: 4px !important;
+  }
+  .blogcards .row {
+    width: 100%;
+  }
+  .blogcards .card {
+    margin: 8px 2px !important;
+  }
+  .blogcards .card .card-body {
+    padding: 10px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .iframemodal iframe {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* main section  */
+  .freshidea .left img,
+   .mainnextSection .right .videoplaybgImg,
+  .AboutmainInner .right .videoplaybgImg,
+  .careContent .Careleft .videoplaybgImg ,
+  /* .mainInner .right img ,
+  .appnewsmainInner .right .blogmainimg,
+  .apployaltymainInner .right .blogmainimg,
+  .contactusmain .right .contactbgimg */
+  .stableMainImg {
+    width: 90% !important;
+  }
+}

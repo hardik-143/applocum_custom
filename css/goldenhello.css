@@ -1,0 +1,42 @@
+@import url(./common.css);
+@import url(./custom.css);
+
+.goldenmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 13rem !important;
+}
+.goldenmain {
+  padding-top: 4rem !important;
+  background-size: 100% 130%;
+}
+.goldenmainSection .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.discussionimg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+.mainInner .right .femalemobileimg {
+  position: absolute;
+  transform: translate(110%, 21%);
+  -moz-transform: translate(154%, 48%);
+  width: 130px;
+}
+
+.goldenmainContent h2{
+  margin-bottom: 14px !important;
+}

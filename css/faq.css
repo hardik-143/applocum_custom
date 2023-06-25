@@ -1,0 +1,83 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* main section  */
+.faqmain{
+    background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+}
+.faqmainSection{
+    padding-bottom: 8rem !important;
+}
+
+/* faq content */
+.contentTitle h1{
+margin-bottom: 20px !important;
+}
+.mainWrapper{
+  border-radius: 6px ;
+  overflow: hidden;
+  background: #fff;
+  margin: 5px 0 !important;
+}
+.wrapperHead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--lighter);
+  color: var(--darkblue);
+  padding: 10px 22px 10px 15px;
+  margin-bottom: 2px;
+}
+.wrapperHead h6{
+  margin: 0;
+}
+.wrapperHead i{
+  width: 30px ;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 20px ;
+}
+.wrapperBody{
+  background: var(--lighter) !important;
+  padding: 0 15px !important;
+  display: none;
+}
+.wrapperBody .wrapperInner{
+  background: #fff;
+
+
+}
+.wrapperInner .QueWrapper{
+  margin-bottom: 2px;
+}
+.QueWrapper .Que{
+  font-size: 14px;
+  color: #1f2172;
+  background: var(--lighter);
+  font-weight: 500 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:9px 15px;
+}
+.QueWrapper .Que i{
+  width: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  position: relative;
+  right: 10px;
+}
+.QueWrapper .Ans{
+  background: var(--lighter);
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.QueWrapper .Ans p{
+  font-size:  14px !important;
+  color: var(--grey);
+  padding: 6px 15px 15px 15px !important;
+  margin-bottom: 0 !important;
+}

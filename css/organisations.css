@@ -1,0 +1,104 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* caremain */
+.caremain {
+  background-repeat: no-repeat !important;
+  padding-top: 6rem;
+  padding-bottom: 11rem !important;
+}
+.caremainimg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+
+.left li {
+  font-weight: 500;
+}
+
+.Orgprimary {
+  background-color: #eef3ff;
+  background-image: url(../images/org-primarycare-1.png);
+  background-size: 100% 125% !important;
+  padding-top: 4rem !important;
+  margin-top: 66px !important;
+  padding-bottom: 17rem !important;
+}
+.Orgsecondary {
+  background-color: #eef3ff;
+  padding-bottom: 8rem !important;
+}
+.Orgsocial {
+  background-color: #eef3ff;
+  background-size: 100% 140% !important;
+  background-image: url(../images/socialhealthcare-bg1.png);
+}
+.Orgprimary .right {
+  display: grid;
+  height: 100%;
+  padding: 30px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.Orgprimary .right .jobmaleimg {
+  position: absolute;
+  transform: translate(-208%, 30%);
+  -moz-transform: translate(-126%, 53%);
+  width: 120px;
+}
+.Orgprimary .right .laptopmaleimg {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(187%, 42%);
+  width: 100px;
+}
+.Orgsecondary .right .contactimg {
+  position: absolute;
+  transform: translate(-66%, 70%);
+  width: 133px;
+}
+.Orgsecondary .right .communicationimg {
+  transform: translate(-242%, 158%) rotateY(180deg);
+  position: absolute;
+  width: 200px;
+}
+.Orgsocial .right .doctorimg {
+  position: absolute;
+  transform: translate(-450%, 89%) rotateY(180deg);
+}
+.Orgsocial .right .maleimg {
+  position: absolute;
+  transform: translate(-33%, 47%);
+}
+/* main slider  */
+.main-slider {
+  position: relative;
+}
+.main-slider::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: #eff3ff !important;
+  height: 320px;
+  right: 0;
+  bottom: -2px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main-slider::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: #fce3f6;
+  height: 320px;
+  right: 0;
+  top: -2px;
+  width: 100%;
+  z-index: -1;
+}

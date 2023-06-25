@@ -1,0 +1,47 @@
+@import url(./common.css);
+@import url(./custom.css);
+
+.thankyouMain{
+    margin-top: 66px !important;
+    background-image: url(../images/register-bg.png);
+    background-size: cover;
+    height: calc(100vh + 20px);
+    padding: 5rem 0 !important;
+}
+.thankyouMain h1{
+    font-size: 44px;
+    font-weight: 500;
+    color: var(--blue);
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.thankyouMain span{
+    margin-top: 12px;
+    font-size: 18px ;
+    font-weight: bold ;
+    color: var(--darkblue);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.thankyouMain a{
+    border-radius: 8px;
+    margin-right: 0 !important;
+    margin-top: 10px;
+}
+@media screen and (max-width:767px) {
+    .thankyouMain h1{
+        font-size: 38px;
+        margin-top: 20px;
+    }
+    .thankyouMain img{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .thankyouMain h1{
+        font-size: 33px;
+    }
+}

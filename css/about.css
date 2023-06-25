@@ -1,0 +1,229 @@
+@import url(custom.css);
+@import url(common.css);
+/* Aboutmain */
+.Aboutmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 11rem !important;
+}
+.AboutmainSection .right {
+  padding: 60px;
+  padding-right: 90px;
+  display: grid;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/camera-ic.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.AboutmainSection .right .videoplaybgImg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 20px;
+  background-image: url(../images/suhel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.AboutmainSection .right .videoplaybgImg .videoplayBtn {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 10, 10, 0.3);
+}
+.AboutmainSection .right .videoplaybgImg .videoplayBtn button {
+  color: var(--darkblue);
+  height: 60px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--white);
+  z-index: 3;
+}
+.AboutmainSection .right .videoplaybgImg .videoplayBtn button:hover {
+  transform: scale(1.1);
+}
+.AboutmainInner .right .Videoseccameramen {
+  position: absolute;
+  transform: translate(-288%, -6%);
+  -moz-transform: translate(-310%, 25%);
+  width: 95px;
+}
+.AboutmainInner .right .Videosecfemalemobile {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(126%, 32%);
+  width: 110px;
+}
+
+/* iframe modal  */
+
+/* iframe modal  */
+.Abiframemodal {
+  width: 100%;
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #5a5a5a80;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+.Abiframemodal .Abiframemodalinner {
+  height: auto !important;
+  animation: iframemodal 0.5s linear forwards 1;
+}
+@keyframes iframemodal {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.Abiframemodal iframe {
+  width: 600px;
+  height: 350px;
+  border: 10px solid white;
+}
+.Abiframemodal button {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  float: right;
+}
+
+/* key ingredient  */
+.ingredientCard {
+  max-width: 230px;
+}
+.ingredientCard:hover .ingredientImg img {
+  transform: scale(1.1);
+}
+.ingredientImg {
+  background-image: url(../images/light-cloud.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  height: 180px;
+}
+/* fresh idea  */
+.freshidea {
+  background-image: url(../images/freshnews-bg.png);
+  background-position: top;
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+}
+.freshidea .left {
+  display: grid;
+  place-items: center;
+}
+.freshidea .left img:first-child {
+  width: 400px;
+  aspect-ratio: 1/0.8;
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 10px;
+}
+.freshidea .blue-vector {
+  position: absolute;
+  transform: translate(-190%, -20%);
+  -moz-transform: translate(-146%, 35%);
+}
+.freshidea li {
+  font-weight: 500;
+}
+
+/* meet professional  */
+.procards .owl-item {
+  display: grid;
+  justify-content: center;
+}
+.proCard .owl-dots {
+  filter: invert(1);
+}
+.proCard {
+  margin: 0 !important;
+  width: 260px;
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#proCard1 {
+  background-image: url(../images/team1.jpg);
+}
+#proCard2 {
+  background-image: url(../images/team6.jpg);
+}
+#proCard3 {
+  background-image: url(../images/team3.jpg);
+}
+#proCard4 {
+  background-image: url(../images/team4.jpg);
+}
+.proCard-inner {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  align-items: end;
+  transition: all 0.4s linear;
+}
+.proCard:hover .proCard-inner {
+  background-color: #2843dfbb;
+}
+.proCard .details span {
+  transform: translateY(-30px);
+  opacity: 0;
+  transition: all 0.6s linear;
+}
+.proCard:hover .details span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.proCard .details .social {
+  height: 27px;
+  overflow: hidden;
+  display: flex;
+}
+.proCard .details .social a {
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+  opacity: 0;
+  border-radius: 50%;
+}
+.proCard .details .social a img {
+  width: 27px;
+}
+.proCard:hover .social a {
+  opacity: 1;
+}
+.proCard .social a:hover {
+  background: var(--white);
+}
+.proCard .social a:hover img {
+  filter: invert(1);
+}

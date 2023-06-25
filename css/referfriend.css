@@ -1,0 +1,101 @@
+@import url(./custom.css);
+@import url(./common.css);
+.refermain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 13rem !important;
+}
+.refermain .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.stableMainImg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+.mainInner .right .jobmaleimg {
+  position: absolute;
+  transform: translate(-208%, 30%);
+  -moz-transform: translate(-126%, 53%);
+  width: 120px;
+}
+.mainInner .right .laptopmaleimg {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(187%, 42%);
+  width: 100px;
+}
+
+ /* referContent */
+ .referContent{
+   padding-bottom: 80px;
+ }
+ .referContent h2{
+   font-size: 40px ;
+   font-weight: 900;
+   color: var(--darkblue);
+   text-align: center;
+   margin-bottom: 20px !important;
+  }
+  .referContent p:not(table p){
+    width: 90%;
+    margin:50px  auto;
+    margin-top: 0 !important;
+    color: var(--grey);
+    text-align: center;
+  }
+  .referContent table{
+    border-radius: 6px;
+    overflow: hidden;
+}
+.referContent table thead{
+    border-bottom: 1px solid #fff;
+}
+.referContent table tbody tr th{
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.referContent table tbody tr{
+  border-bottom: 1px solid #9797972a;
+}  
+.referContent table thead{
+  font-size: 16px;
+  font-weight: bold;
+}
+.referContent table tbody{
+
+  font-size: 14px;
+  color: var(--grey);
+}
+.referContent table tbody tr th{
+  font-weight: 500;
+}
+.referContent table tbody tr td{
+  text-align: center;
+  font-weight: bold;
+}
+.referContent table .termsHeading{
+  border-color: #fff;
+}
+.referContent table .termsHeading td{
+  color: var(--darkblue);
+  font-size: 16px ;
+  font-weight: bold !important;
+  text-align: left;
+}
+.conditions td p{
+  margin: 0;
+  text-align: left !important;
+}

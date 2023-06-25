@@ -1,0 +1,190 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* appmain */
+.appnewsmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 2rem;
+  padding-bottom: 13rem !important;
+}
+.appnewsmainSection .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.blogmainimg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+ .right .jobmaleimg {
+  position: absolute;
+  transform: translate(-208%, 30%);
+  -moz-transform: translate(-126%, 53%);
+  width: 120px;
+}
+ .right .laptopmaleimg {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(187%, 42%);
+  width: 100px;
+}
+
+/* blog section  */
+.blogcards .row >div{
+  padding:  0 !important;
+}
+.blogcards .card{
+  margin: 10px !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+  border: none !important;
+
+}
+.blogcards .card .card-body{
+  background:  #fbfcff !important;
+}
+.blogcards .card .card-title{
+  font-size: 16px !important;
+  margin-top: 0 !important;
+  height: 38px ;
+  margin-bottom: 10px !important  ;
+}
+.blogcards .card .card-text{
+  color: var(--text-grey) !important;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 12px !important;
+}
+.bloginfo{
+  padding: 10px 0;
+}
+.bloginfo .bloginfodiv{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.bloginfo .bloginfo-title {
+  height: 45px;
+  background:  var(--lighter);
+  padding: 0 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-weight: bold ;
+  margin-bottom: 20px;
+}
+.bloginfo .bloginfo-title .title{
+  line-height: 45px;
+  font-size: 17px;
+  color: var(--darkblue);
+}
+/* blog - recent  */
+.bloginfo .recentBlogs .recent{
+  transition: all 0.3s linear;
+  border-radius: 10px;
+}
+.bloginfo .recentBlogs .recent:hover{
+  box-shadow: inset -2px 0 8px rgb(156, 156, 156);
+}
+.bloginfo .recentblogImage{
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center;
+}
+.bloginfo .recentinfo{
+  padding: 6px !important;
+}
+.bloginfo .blogDate{
+  font-size: 11px !important;
+  font-weight: 500;
+
+  line-height: 13px !important;
+}
+.bloginfo .blogTitle{
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+/* blog - categories  */
+.bloginfo .categories-item{
+  font-size: 11px;
+  margin: 5px ;
+  margin-left: 0;
+  font-weight: 500 !important;
+  text-align: justify;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.bloginfo .categories-item:hover{
+  color: #fff !important;
+  background: var(--black) !important;
+}
+/* blog - tags  */
+.Tags .bloginfo-detail span{
+  font-size: 11px;
+  margin: 5px ;
+  margin-left: 0;
+  font-weight: 500 !important;
+  text-align: justify;
+  background:  var(--lighter);
+color: var(--light-white );
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.Tags .bloginfo-detail span:hover{
+  color: #fff !important;
+  background: var(--black) !important;
+}
+
+/* blog - InstaFeed  */
+.InstaFeed .bloginfo-detail div{
+  margin-left: 0;
+  padding: 0%;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+}
+.InstaFeed .bloginfo-detail div:hover img{
+  box-shadow:0 3px 10px rgb(90, 90, 90);
+  transform: scale(0.9);
+}
+.InstaFeed .bloginfo-detail div img{
+  width: 85% !important;
+  border-radius: 10px !important;
+  transition: all 0.2s linear;
+}
+
+/* pagination  */
+#pagNav{
+  box-shadow:  none !important;
+  margin-top: 30px;
+}
+#pagNav .page-link:active , .page-link:focus, .page-link:hover{
+  box-shadow: none !important;
+  color: #fff !important;
+  background: var(--blue) !important;
+}
+#pagNav .page-item{
+  margin: 0 2px !important;
+}
+#pagNav .page-item .page-link{
+  border-radius: 3px !important;
+  padding: 0;
+  color: var(--blue);
+  text-align: center;
+  width: 30px ;
+  line-height: 30px ;
+  border: none !important;
+}
+#pagNav .page-item:first-child .page-link , .page-item:last-child .page-link{
+  background: var(--lighter);
+}

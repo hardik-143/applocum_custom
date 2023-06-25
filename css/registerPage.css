@@ -1,0 +1,132 @@
+@import url(./custom.css);
+@import url(./common.css);
+
+.registerMain {
+  margin-top: 66px !important;
+  background-image: url(../images/register-bg.png);
+  background-size: cover;
+  height: 100vh;
+padding: 5rem 0 !important;
+}
+.registerLeft img {
+  margin-bottom: 40px;
+}
+.registerLeft h1 {
+  font-size: 54px;
+  font-weight: bold;
+  color: var(--darkblue);
+}
+.registerLeft p {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--blue);
+}
+.registerRight .form {
+  max-width: 460px !important;
+  padding: 15px;
+  position: relative;
+  border-radius: 16px;
+}
+.form .formHeading h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--darkblue);
+  margin: 0;
+}
+.form .formHeading img {
+  width: 100px !important;
+}
+.form hr {
+  width: calc(100% + 30px);
+  margin: 0;
+  margin-bottom: 41px;
+  background: #d8d8d8;
+  transform: translateX(-15px);
+}
+.registerRight .input {
+  height: 40px;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--grey);
+  margin-bottom: 20px !important;
+  border-radius: 5px;
+  border: solid 1px #dedede !important;
+  background-color: #eff3ff !important;
+}
+.registerRight .input:hover{
+
+    border: solid 1px #b9b9b9 !important;
+}
+.registerRight .input:focus {
+  background-color: #eff3ff !important;
+  border: solid 1px #585858 !important;
+}
+.registerRight .termsDiv label {
+  border-radius: 2px;
+  border: solid 1px #dedede !important;
+  background-color: #eff3ff !important;
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  background-position: center;
+}
+.registerRight #termsCheck {
+  display: none;
+}
+.registerRight #termsCheck:checked + label {
+  background-image: url(../images/tick.png);
+}
+.registerRight .termsDiv span {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--grey);
+}
+.registerRight .termsDiv span a:hover{
+  color: var(--darkblue) !important;
+}
+.registerRight input[type="submit"] {
+    line-height: 48px;
+    font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 8px;
+  background: var(--blue);
+  margin-top: 30px;
+}
+.registerRight input[type="submit"]:hover{
+    opacity: 0.95;
+}
+@media screen and (max-width: 991px) {
+    .registerMain {
+        height: auto;
+    }
+    .registerLeft h1 {
+        font-size: 45px;
+      }
+      .registerLeft p{
+          font-size: 20px;
+      }
+}
+@media screen and (max-width: 767px){
+    .registerLeft h1 {
+        font-size: 40px;
+      }
+      .registerLeft p {
+        font-size: 18px;
+      }
+      .registerRight{
+          margin-top: 20px;
+      }
+}
+@media screen and (max-width: 500px) {
+  .registerMain {
+    background-image: none;
+  }
+  .registerLeft h1 {
+    font-size: 30px;
+  }
+  .registerLeft p {
+    font-size: 16px;
+  }
+}

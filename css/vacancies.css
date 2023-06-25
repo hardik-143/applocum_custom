@@ -1,0 +1,153 @@
+@import url(./custom.css);
+@import url(./common.css);
+.vacanciesmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 13rem !important;
+}
+.vacanciesmain .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.stableMainImg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+.mainInner .right .jobmaleimg {
+  position: absolute;
+  transform: translate(-208%, 30%);
+  -moz-transform: translate(-126%, 53%);
+  width: 120px;
+}
+.mainInner .right .laptopmaleimg {
+  position: absolute;
+  transform: translate(150%, 21%);
+  -moz-transform: translate(187%, 42%);
+  width: 100px;
+}
+/* content  */
+.searchOpt {
+  /* display: flex !important;
+  flex-direction: row !important; */
+  margin-bottom: 20px !important;
+  font-family: "Montserrat";
+}
+.searchOpt .keywordDiv input,
+.searchOpt select {
+  padding: 10px 13px;
+  margin: 7px 0;
+  border-radius: 6px !important;
+  background-color: #eff3ff;
+  font-size: 14px;
+}
+
+.searchOpt button {
+    padding: 12px 13px;
+    margin: 7px 0;
+  border-radius: 6px !important;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  background: #595959;
+  color: #fff;
+  width: 70px !important;
+}
+@media screen and (max-width:1000px) {
+    .searchOpt .row > div{
+        padding-right: 0 !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .searchOpt .d-flex{
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: flex-start !important;
+    }
+    .searchOpt .d-flex .row{
+        width: 100%;
+        margin: auto !important;
+    }
+    .searchOpt .d-flex .row div{
+        padding: 0;
+    }
+    .searchOpt button {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+}
+/* blogcards  */
+.careerBlog {
+  background: var(--lighter);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.careerBlog .title span {
+  color: var(--blue);
+  font-size: 16px !important;
+  font-weight: 600;
+}
+.careerBlog .blogInfo {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 14px 0 !important;
+}
+.blogInfo div {
+  width: 100px !important;
+  margin-bottom: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: #303030;
+  line-height: 22px;
+}
+.careerBlog .blogInfo i {
+  color: var(--darkblue);
+  font-size: 16px;
+  margin-right: 9px !important;
+}
+.careerBlog .blogText {
+  margin-bottom: 40px !important;
+  text-align: justify;
+}
+
+/* pagination  */
+#pagNav {
+  box-shadow: none !important;
+  margin-top: 30px;
+}
+#pagNav .page-link:active,
+.page-link:focus,
+.page-link:hover {
+  box-shadow: none !important;
+  color: #fff !important;
+  background: var(--blue) !important;
+}
+#pagNav .page-item {
+  margin: 0 2px !important;
+}
+#pagNav .page-item .page-link {
+  border-radius: 3px !important;
+  padding: 0;
+  color: var(--blue);
+  text-align: center;
+  width: 30px;
+  line-height: 30px;
+  border: none !important;
+}
+#pagNav .page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  background: var(--lighter);
+}

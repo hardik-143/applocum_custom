@@ -1,0 +1,112 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* appmain */
+.contactusmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 5rem;
+  padding-bottom: 13rem !important;
+}
+.contactusmainSection .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.contactbgimg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+.right .contactmaleimg {
+  position: absolute;
+  transform: translate(100%, 10%);
+  -moz-transform: translate(123%, 43%);
+  width: 140px;
+}
+.right .communicationimg {
+  position: absolute;
+  transform: translate(-146%, 37%);
+  -moz-transform: translate(-74%, 70%);
+  width: 222px;
+}
+.offices {
+  margin-top: 50px;
+}
+.offices .row > div {
+  padding: 10px !important;
+}
+.offices .transperantBox {
+  background: rgba(255, 255, 255, 0.95);
+}
+.offices .officeCard {
+  padding: 27px 15px !important;
+}
+.offices .row div > div {
+  border-radius: 20px !important;
+  background-position: center;
+  background-size: 100% cover;
+}
+.offices #indiaOffice > div {
+  background-image: url(../images/india.png);
+}
+.offices #ukOffice > div {
+  background-image: url(../images/uk.png);
+}
+.officeCard h6 {
+  color: #05104d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.officeCard .info {
+  margin-bottom: 15px;
+}
+
+.officeCard p {
+  color: var(--grey);
+}
+.officeCard p:hover a{
+  color: #dc3545 !important;
+}
+.officeCard p img {
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+}
+.officeCard p.location_link {
+  min-height: 45px;
+}
+.location-map {
+  margin-top: 40px !important;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.contact-form{
+  margin-top: 30px;
+}
+.contact-form .row input , .contact-form textarea{
+  padding: 10px 13px ;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #eff3ff;
+  font-size: 14px;
+}
+.contact-form .row input{
+  height: 40px;
+}
+.contact-form .row input:focus , .contact-form textarea:focus{
+  background-color: #eff3ff;
+}
+.contact-form button{
+  margin-top: 40px;
+  margin-right: 0 !important;
+}

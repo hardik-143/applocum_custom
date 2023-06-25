@@ -1,0 +1,152 @@
+@import url(custom.css);
+@import url(common.css);
+
+/* below css will apply in both privacy-policy and terms-conditions page  */
+.missionmain {
+  background-image: url(../images/aboutbg.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  margin-top: 66px !important;
+  padding-top: 3rem;
+  padding-bottom: 13rem !important;
+}
+.missionmain {
+  padding-top: 4rem !important;
+  background-size: 100% 130%;
+}
+.missionmain .right {
+  display: grid;
+  height: 100%;
+  padding: 60px 0;
+  padding-top: 10px;
+  place-items: center;
+  flex-grow: 1;
+  background-image: url(../images/book.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.right {
+  background-image: none !important;
+  padding: 20px 0 !important;
+}
+.stableMainImg {
+  width: 440px;
+  aspect-ratio: 1/0.8;
+  border-radius: 10px;
+}
+
+/* team member section  */
+.teamCard {
+  border-radius: 15px !important;
+  overflow: hidden;
+  background: #fbfcff;
+}
+.teamMemberSection .row > div {
+  margin-bottom: 20px !important;
+}
+.MemberImg {
+  width: 40%;
+  padding: 0 5px 0 0 !important;
+}
+.MemberImg img {
+  border-bottom-left-radius: 15px;
+}
+.MemberInfo {
+  width: 60%;
+  padding: 11px 15px 11px 5px !important;
+}
+.MemberInfo .MName {
+  font-weight: bold;
+  color: #05104d;
+  margin-bottom: 10px !important;
+}
+.MemberInfo .MPosition {
+  color: var(--grey);
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+.MemberInfo hr {
+  margin: 15px 0;
+  width: 60px;
+}
+.MemberInfo .MDetail {
+  color: var(--grey);
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  margin-bottom: 12px;
+  text-align: justify;
+  transition: all 0.5s linear;
+}
+.MemberInfo .MDetail .ExtraDetail {
+  display: none;
+  transition: all 0.5s linear;
+}
+.LinkedinBtn {
+  height: 34px;
+  width: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  margin-right: 11px;
+  background: var(--blue);
+  color: var(--white);
+}
+.LinkedinBtn:hover {
+  opacity: 0.8;
+  color: white !important;
+}
+.ReadBtn {
+  padding: 0 16px;
+  line-height: 34px;
+  background: var(--blue);
+  border: 1px solid var(--blue) !important;
+  color: var(--white);
+  border-radius: 6px;
+  transition: all 0.2s linear;
+}
+.ReadBtn:hover {
+  border: 1px solid var(--blue) !important;
+  background: var(--white);
+  color: var(--blue);
+}
+@media screen and (nmin-width: 992px) {
+  .teamCard:hover img {
+    transform: scale(1.1) !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .teamCard {
+    box-shadow: 0 0 5px rgb(197, 197, 197);
+  }
+  .teamCard .cardinner {
+    flex-direction: column !important;
+    padding: 8px 13px!important;
+  }
+  .teamCard .MemberImg {
+    width: 80% !important;
+    margin: auto;
+    display: grid;
+    place-items: center;
+  }
+  .teamCard .MemberImg img {
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .teamCard .MemberInfo {
+    width: 100%;
+    margin: auto;
+    padding: 15px 0  !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .teamCard .MemberImg {
+    width: 100% !important;
+  }
+  .teamCard .MemberImg img {
+    width: 100% !important;
+  }
+}

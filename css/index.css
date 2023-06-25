@@ -1,0 +1,230 @@
+@import url(custom.css);
+@import url(common.css);
+
+.nav-link {
+  color: var(--white) !important;
+}
+/* main section  */
+.mainSection {
+  background: #eff3ff;
+  background-image: url(../images/banner-bg.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 5rem 0 3rem 0;
+  background-repeat: no-repeat;
+}
+.mainSection h1 {
+  color: var(--white);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 60px;
+}
+
+.mainSection .btnGroup button:hover i {
+  transform: scale(1.5, 1);
+  margin-left: 10px;
+}
+.mainImgdiv {
+  width: 50%;
+  margin: auto;
+}
+.mainImgdiv .mainLaptop {
+  width: 120%;
+  transform: translateX(-10%);
+}
+.mainImgdiv .mainPhone {
+  width: 55% !important;
+  /* position: absolute; */
+  transform: translate(-50%, -90%) rotate(-7deg) scale(2);
+  animation: mainPhone 5s infinite forwards linear;
+}
+@keyframes mainPhone {
+  0%,
+  100% {
+    transform: translate(-50%, -90%) rotate(-7deg) scale(2);
+  }
+  33% {
+    transform: translate(-50%, -85%) rotate(-7deg) scale(2);
+  }
+
+  66% {
+    transform: translate(-50%, -95%) rotate(-7deg) scale(2);
+  }
+}
+.mainImgdiv .mainMale {
+  width: 17% !important;
+  float: right;
+  transform: translateY(-100%) rotateY(180deg) translateX(0);
+  animation: mainMale 5s infinite forwards linear;
+}
+@keyframes mainMale {
+  0%,
+  100% {
+    transform: translateY(-100%) rotateY(180deg) translateX(0);
+  }
+  33% {
+    transform: translateY(-100%) rotateY(180deg) translateX(-10%);
+  }
+
+  66% {
+    transform: translateY(-100%) rotateY(180deg) translateX(10%);
+  }
+}
+/* main next */
+.mainNext {
+  /* background: #eff3ff; */
+  background-image: url(../images/aboutbg1.png);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  padding-bottom: 13rem !important;
+}
+.mainNext::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  background: #eff3ff !important;
+  height: 320px;
+  right: 0;
+  top: -2px;
+  width: 100%;
+  z-index: -1;
+}
+.mainnextSection .right {
+  display: grid;
+  place-items: center;
+  flex-grow: 1;
+}
+.mainnextSection .right .videoplaybgImg {
+  width: 400px;
+  aspect-ratio: 1 / 0.8;
+  border-radius: 20px;
+  background-image: url(../images/locums-work.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.mainnextSection .right .videoplaybgImg .videoplayBtn {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 10, 10, 0.3);
+}
+.mainnextSection .right .videoplaybgImg .videoplayBtn button {
+  color: var(--darkblue);
+  height: 60px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--white);
+  z-index: 3;
+}
+.mainnextSection .right .videoplaybgImg .videoplayBtn button:hover {
+  transform: scale(1.1);
+}
+.mainnextInner .right .VideosectionladyVector {
+  position: absolute;
+  transform: translate(-255%, -0%);
+  -moz-transform: translate(-225%, 34%);
+  width: 90px;
+}
+.mainnextInner .right .VideosectionComs {
+  position: absolute;
+  transform: translate(27%, 64%);
+  -moz-transform:  translate(78%, 81%);
+  width: 200px;
+}
+/* iframe modal  */
+.iframemodal {
+  width: 100%;
+  height: 100vh !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #5a5a5a80;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+.iframemodal .iframemodalinner {
+  height: auto !important;
+  animation: iframemodal 0.5s linear forwards 1;
+}
+@keyframes iframemodal {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.iframemodal iframe {
+  width: 600px;
+  height: 350px;
+  border: 10px solid white;
+}
+.iframemodal button {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  float: right;
+}
+
+/* jobs  */
+.jobCard {
+  max-width: 210px;
+}
+.jobCard:hover .jobImg img {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+.jobImg {
+  background-image: url(../images/light-cloud.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  height: 180px;
+}
+.jobSection h3{
+  font-weight: 900;
+}
+/* job second  */
+.jobsSecond {
+  background-image: url(../images/bg-blog.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 8rem;
+  padding-bottom: 0;
+  margin-bottom: -6rem;
+}
+.jobsSecond .container{
+  padding-bottom: 18rem;
+}
+.jobsecCards .card {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+.viewAll img {
+  width: 15%;
+}
+/* trusted  */
+.trusted img {
+  display: block !important;
+  width: auto !important;
+}
+.trusted .owl-item div{
+  display: grid;
+  place-items: center;
+}
